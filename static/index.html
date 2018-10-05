@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Ansy's Websit</title>
+    <link rel="stylesheet" href="css/index.css">
+    <link rel="stylesheet" href="css/font-awesome.css">
+    <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon" />
+</head>
+<body>
+    
+    <span id="to_top">
+        <img src="img/up-arrow.png" alt="">
+    </span>
+    <div class="container">
+        <nav>
+            <ul class="menu">
+                <li><a href="#!">主页</a></li>
+                <li><a href="#profile">个人信息</a></li>
+                <li><a href="#work">工作</a></li>
+                <li><a href="#life">生活</a></li>
+            </ul>
+            <a href="#login" class="login">登录</a>
+        </nav>
+        <div class="wrap">
+            <p class="title">Cici</p>
+            <h1>欢迎来到Cici的世界，你将会对Cici有所了解</h1>
+            <button class="start">开始你的旅程</button>
+            <a href="#" class="realize_more">了解更多</a>
+        </div>
+        <!-- 注册 -->
+        <div id="register">
+            <div class="form_wrap">
+                <input type="text" placeholder="访客姓名" id="name">
+                <input type="text" placeholder="访客邮箱" id="email">
+                <button id="register_submit" onclick="registe()">开始你的旅程</button>
+            </div>
+        </div>
+        <!-- 个人信息部分 -->
+        <section class="profile clear" id="profile">
+            <h1>个人信息篇 <span class="profile_like like"> <i class="fa fa-thumbs-o-up fa-md"></i>
+            </span></h1>
+            <aside>
+                <div class="profile_slider">
+                <img src="img/mla6.jpg" alt="" class="show">
+                <img src="img/mla7.jpg" alt="">
+                <img src="img/mla8.jpg" alt="">
+            </div>
+            </aside>
+            <aside>
+                <table>
+                    <tbody>
+                        <tr>
+                            <td>姓名</td>
+                            <td>颜思</td>
+                            <td>年龄</td>
+                            <td>(+_+)?</td>
+                        </tr>
+                        <tr>
+                            <td>名族</td>
+                            <td>(　o=^•ェ•)o　┏━┓</td>
+                            <td>籍贯</td>
+                            <td>( ఠൠఠ )ﾉ</td>
+                        </tr>
+                        <tr>
+                            <td>身高</td>
+                            <td>(⓿_⓿)</td>
+                            <td>体重</td>
+                            <td>(●'◡'●)</td>
+                        </tr>
+                        <tr>
+                            <td>学历</td>
+                            <td>(＠_＠;)</td>
+                            <td>专业</td>
+                            <td>щ(ʘ╻ʘ)щ</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </aside>
+        </section>
+        <!--图集部分 -->
+        <section id="pic">
+            <div class="pic-item-wrap">
+                    <img src="img/mla3.jpg" alt="">
+                <div class="item-hover">
+                    <div class="item-desc">
+                        <i class="fa fa-columns fa-5x"></i>
+                        <p>图集一</p>
+                    </div>
+                </div>
+            </div>
+            <div class="pic-item-wrap">
+                <img src="img/mla3.jpg" alt="">
+                <div class="item-hover">
+                    <div class="item-desc">
+                        <i class="fa fa-columns fa-5x"></i>
+                        <p>图集二</p>
+                    </div>
+                </div>
+            </div>
+            <div class="pic-item-wrap">
+                    <img src="img/mla3.jpg" alt="">
+                    <div class="item-hover">
+                        <div class="item-desc">
+                            <i class="fa fa-columns fa-5x"></i>
+                            <p>图集三</p>
+                        </div>
+                    </div>
+            </div>
+        </section>
+        <!--工作轴 -->
+        <section id="work" class="clear">
+            <div class="left-aside">
+                <div >
+                    <span class="time">2016.01.01</span>
+                    <b></b>
+                </div>
+                <div class="work-item">
+                     
+                        <img src="img/mla1.jpg" alt="" >
+                        <span class="title">项目一</span>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati officia nam ipsum, consectetur incidunt, asperiores corrupti accusamus quaerat neque quia libero autem placeat omnis sapiente? Rerum aut atque ipsa odit?</p>
+                </div>
+                <div >
+                    <span class="time">2016.01.01</span>
+                    <b></b>
+                </div>
+                
+                <div class="work-item">
+                    <img src="img/mla1.jpg" alt="" >
+                    <span class="title">项目二</span>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati officia nam ipsum, consectetur incidunt, asperiores corrupti accusamus quaerat neque quia libero autem placeat omnis sapiente? Rerum aut atque ipsa odit?</p>
+                </div>
+            </div>
+            <div class="right-aside">
+                <div >
+                    <b></b>
+                    <span class="time">2016.01.01</span>
+                </div>
+                <div class="work-item">
+                    
+                    <img src="img/mla1.jpg" alt="">
+                    <span class="title">项目三</span>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati officia nam ipsum, consectetur incidunt, asperiores corrupti accusamus quaerat neque quia libero autem placeat omnis sapiente? Rerum aut atque ipsa odit?</p>
+                </div>
+            </div>
+            <h1>工作篇<span class="profile_like like"> <i class="fa fa-thumbs-o-up fa-md"></i>
+            </span></h1>
+        </section>
+        <!--生活篇 -->
+        <section id="life" >
+            <h1>生活篇<span class="profile_like like"> <i class="fa fa-thumbs-o-up fa-md"></i>
+            </span></h1>
+            <diV class="life-wrap">
+                    <div>
+                            <img src="img/mla811.jpg" alt="">
+                            <div>
+                                <h1>读书</h1>
+                               <p>我们读书时，是别人在代替我们思想，我们只不过重复他的思想活动的过程而已，犹如儿童启蒙习字时，用笔按照教师以铅笔所写的笔画依样画葫芦一般。我们的思想活动在读书时被免除了一大部分。因此，我们暂不自行思索而拿书来读时，会觉得很轻松，然而在读书时，我们的头脑实际上成为别人思想的运动场了。所以，读书愈多，或整天沉浸读书的人，虽然可借以休养精神，但他的思维能力必将渐次丧失，此犹如时常骑马的人步行能力必定较差，道理相同。——叔本华</p>
+                            </div>
+                        </div>
+                        <div>
+                            <img src="img/mla811.jpg" alt="">
+                            <div>
+                                    <h1>运动</h1>
+                                <p>不言体育而空言道德，空言智识，言者暗矣，听者心厌矣，究于事实何俾华考范文网能使他养成忍受痛苦的习惯；为了使他将来受得住关节脱落、腹痛和疾病的折磨，就必须使他历尽体育锻炼的种种艰苦。</p>
+                                <p>教育上的秘诀，便是使身心两种锻炼可以互相调剂。才能使他养成忍受痛苦的习惯；为了使他将来受得住关节脱落、腹痛和疾病的折磨，就必须使他历尽体育锻炼的种种艰苦。</p>
+                                </div>
+                        </div>
+                        <div>
+                            <img src="img/mla811.jpg" alt="">
+                            <div>
+                                    <h1>旅行</h1>
+                                <p>行走过许多美景之地，见闻过不少各异文化。却总是刻意留些遗憾，不为别的，留下了惦念。好比于人，有缺之人比起上下完美者，便可记可念。</p>
+                                <p> 计划了很久了的纪念日远足旅行恐怕要落空了，生命中总会有那么多的变数。我们总在现实里迷茫，在追逐中迷失，在蹉跎中老去！等到白发苍苍的时候再回首最初的那个如画的春天，才后悔自己没能在最青春的时光里做一些一直记到老的事情！</p>
+                                </div>
+                                </div>
+            </diV>
+        </section>
+        <!--社交媒体 -->
+        <div id="contact" class="clear">
+            <div class="bottom-slider">
+                    <div class="slider-wrap">
+                            <ul class="slider">
+                                <li class="slider1">革命尚未成功</li>
+                                <li class="slider2">同志仍须努力</li>
+                                <li class="slider3">加油！加油！加油！</li>
+                            </ul>
+                            <div class="slider-opt">
+                                <label for="l01"></label>
+                                <label for="l02"></label>
+                                <label for="l03"></label>
+                            </div>
+                        </div>
+            </div>
+            <div id="asocciate">
+                <div>
+                        <div>
+                                <i class="fa fa-qq fa-3x"></i>
+                                <p>QQ</p>
+                            </div>
+                            <div>
+                                <i class="fa fa-weixin fa-3x"></i>
+                                <p>微信</p>
+                            </div>
+                            <div>
+                                <i class="fa fa-weibo fa-3x"></i>
+                                <p>微博</p>
+                            </div>
+                            <div>
+                                <i class="fa fa-github fa-3x"></i>
+                                <p>Github</p>
+                            </div>
+                            <div>
+                                <i class="fa fa-envira fa-3x"></i>
+                                <p>知乎</p>
+                            </div>
+                            <div>
+                                <i class="fa fa-drupal fa-3x"></i>
+                                <p>豆瓣</p>
+                            </div>
+                            <div>
+                                <i class="fa fa-dashcube fa-3x"></i>
+                                <p>CSDN</p>
+                            </div>
+                            <div>
+                                <i class="fa fa-fire fa-3x"></i>
+                                <p>Frecode</p>
+                            </div>
+                </div>
+            </div>
+            <div id="comment">
+                <textarea name="" id="" cols="50" rows="11" placeholder="评论......"></textarea>
+                <button id="send" onclick="send()"><i class="fa fa-paper-plane"></i>&nbsp发送</button>
+            </div>
+        </div>
+        <!--登录-->
+        <div id="login">
+            <div class="form_wrap">
+                <input type="text" placeholder="姓名" id="vname" value="ansy">
+                <input type="text" placeholder="邮箱" id="vemail" value="yansy@123.com">
+                <button id="login_submit" onclick="login()">登录</button>
+            </div>
+        </div>
+        <footer>
+            <p>&copy;written by An</p>
+        </footer>
+    </div>
+    <script src="js/ajax_common.js"></script>
+    <script src="js/jquery-3.2.1.js"></script>
+    <script src="js/visitor.js"></script>
+    <script src="js/index.js"></script>
+</body>
+</html>
